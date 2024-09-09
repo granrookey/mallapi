@@ -54,7 +54,7 @@ public class ProductServiceTests {
   public void testRead() {
 
     //실제 존재하는 번호로 테스트 
-    Long pno = 12L; 
+    Long pno = 9L; 
 
     ProductDTO productDTO = productService.get(pno);
 
